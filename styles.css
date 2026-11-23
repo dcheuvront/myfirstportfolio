@@ -1,0 +1,14 @@
+/* CSS by Desiree Cheuvront */
+/*Color Palette
+sage: #A3B18A
+pale sage: #CAD2C5
+cream: #F5F3ED
+beige: #DAD7CD
+forest: #344E41
+
+*/
+
+/* GLOBAL (base) MOBILE FIRST */
+body {
+    background-color: #F5F3ED;
+}
