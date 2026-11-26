@@ -58,7 +58,6 @@ h2 {
 p {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 15px;
 }
 
 main {
@@ -80,7 +79,7 @@ section {
 }
 
 footer{
-background-color: #344E41;
+    background-color: #344E41;
     color: #F5F3ED;
     justify-content: center;
     text-align: center;
