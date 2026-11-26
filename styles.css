@@ -13,9 +13,12 @@ soft walnut: #A8957B
 body {
     background-color: #F5F3ED;
     color: #344E41;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-header, footer {
+header {
     background-color: #344E41;
     color: #F5F3ED;
     display: flex;
@@ -42,7 +45,8 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1rem;
 }
 
 h2 {
@@ -62,14 +66,24 @@ main {
     max-width: 85vw;
     margin: 0 auto;
     padding: 1rem;
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 section {
     background-color: #CAD2C5;
     padding: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     border-radius: 8px;
     border: 2.75px solid #a8957b;
+}
+
+footer{
+background-color: #344E41;
+    color: #F5F3ED;
+    justify-content: center;
+    text-align: center;
 }
 
 .home-card {
@@ -140,4 +154,17 @@ section {
     background-color: #344E41;
 }
 
+@media (min-width: 768px) {
+    .home-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .project-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav ul {
+        gap: 5rem;
+    }
+}
 
