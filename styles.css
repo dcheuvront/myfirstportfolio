@@ -12,4 +12,132 @@ soft walnut: #A8957B
 /* GLOBAL (base) MOBILE FIRST */
 body {
     background-color: #F5F3ED;
+    color: #344E41;
 }
+
+header, footer {
+    background-color: #344E41;
+    color: #F5F3ED;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav {
+    background-color: #344E41;
+    padding-bottom: 1rem;
+}
+
+nav a {
+  color:#F5F3ED;
+}
+
+nav a:hover {
+  color:#A3B18A;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    color:#344E41;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+main {
+    width: 100%;
+    max-width: 85vw;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section {
+    background-color: #CAD2C5;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    border: 2.75px solid #a8957b;
+}
+
+.home-card {
+    background-color: #F5F3ED;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #A8957B;
+    border-radius: 8px;
+}
+
+.home-card a {
+    background-color: #A3B18A;
+    color: #344E41;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.home-card a:hover {
+    color: #F5F3ED;
+    background-color: #344E41;
+}
+
+.home-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.project-card {
+    background-color: #F5F3ED;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #A8957B;
+    border-radius: 8px;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.project-card h3 {
+    color:#344E41;
+    margin-bottom: 1rem;
+}
+
+.project-card a {
+    background-color: #A3B18A;
+    color: #344E41;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.project-card a:hover {
+    color: #F5F3ED;
+    background-color: #344E41;
+}
+
+
